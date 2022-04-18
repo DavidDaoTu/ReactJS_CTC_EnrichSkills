@@ -1,0 +1,14 @@
+#blk {
+    border-color: red;
+    border-width: .2rem;
+    border-style: solid;
+    padding: .5rem;
+}
+
+
+.inline {
+    border-color: blue;
+    border-width: .2rem;
+    border-style: solid;
+        
+}
