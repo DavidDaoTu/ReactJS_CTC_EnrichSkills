@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week1_BasicHTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Q1: Basic HTML tags -->
+    <!-- Heading tags -->
+    <h1>My first heading paragraph!</h1>
+    <h2>My first heading paragraph!</h2>
+    <h3>My first heading paragraph!</h3>
+    <br>
+    <!-- Paragraph tag -->
+    <p>This is a paragraph!</p>
+    <p>This is another paragraph!</p>
+    <br>
+    <!-- Link tag -->
+    <a href="https://www.w3schools.com">This is a link to w3schools.com</a>
+    <br>
+    <!-- Image tag -->
+    <img id="coffee"
+        src="https://images.unsplash.com/photo-1612880312017-43b4e27f7aa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+        alt="Unsplash image">
+
+    <!-- Q2: Tag name vs normal tag-->
+    <p>Don't understand the question yet! But tag name is name of tag</p>
+
+    <!-- Q3: Block vs Inline -->
+    <p id="blk"> This is a block paragraph with
+        &#60p&#62 element</p>
+    <div id="blk"> This is a block with
+        &#60div&#62 element</div>
+    <span class="inline">This is inline with &#60span&#62 element</span>
+    <a class="inline" href="https://www.google.com">This is another inline with &#60a&#62 element, is a link to
+        google.com</a>
+
+    <!-- Q4: Box sizing -->
+    <br>
+    <br>
+    <p>
+    <h1>No Box-sizing: actual width, height = width, height + padding + boder size</h1>
+    </p>
+    <div class="my-box-1">Box demo1</div>
+    <br>
+    <div class="my-box-2">Box demo2</div>
+    <br>
+    <br>
+    <p>
+    <h1>Box-sizing: total width, height = padding + border size</h1>
+    </p>
+    <div class="my-box-sizing-1">Box-sizing demo1</div>
+    <br>
+    <div class="my-box-sizing-2">Box-sizing demo2</div>
+
+    <!-- Part 2: Padding & margin
+        1. Padding & margin la gi? 
+        2. Nhieu cach dung, lay 3 vi du ve khai bao. Y nghia, chieu..., 
+        3. Co the su dung css o dau? quy tac ve cau truc khi khai bao css 
+        4. Co cach nao de bien 1 the block thanh inline ko?
+        5. table/form tao 1 form bang html/css? duong dan tuong doi/tuyet doi
+    -->
+
+    <!-- 1. Padding la khoang cach noi dung so voi border. Margin la khoang cach border so voi phan tu xung quanh ben ngoai. -->
+    <!-- 2: Vi du ve padding & margin. Chieu tu tren xuong duoi, tu phai qua trai. Uu tien trai-phai tao thanh 1 cap-->
+    <h1>Padding examples:</h1>
+    <hr width="100%">
+    <div style="border: 5px solid blue; width: 600px; height: 200px; box-sizing: border-box;">No pading</div>
+    <hr>
+
+    <div class="padding-demo-1">
+        Padding demo 1: top=bottom=right=left
+    </div>
+    <hr>
+    <div class="padding-demo-2">
+        Padding demo 2: (top+bottom)-(right+left)
+    </div>
+    <hr>
+    <div class="padding-demo-3">
+        Padding demo 3: top-(right+left)-bottom
+    </div>
+    <hr>
+    <div class="padding-demo-4">
+        Padding demo 4: top-right-bottom-left
+    </div>
+
+    <hr>
+    <h1>Margin examples</h1>
+    <div style="border: 5px solid blue; 
+                width: 600px; height: 200px; 
+                box-sizing: border-box;">
+        No Margin
+    </div>
+    <hr>
+
+    <div class="margin-demo-1">
+        Margin demo 1: top=bottom=right=left
+    </div>
+    <hr width="100%">
+    <div class="margin-demo-2">
+        Margin demo 2: (top+bottom)-(right+left)
+    </div>
+    <hr>
+    <div class="margin-demo-3">
+        Margin demo 3: top-(right+left)-bottom
+    </div>
+    <hr>
+    <div class="margin-demo-4">
+        Margin demo 4: top-right-bottom-left
+    </div>
+
+    <!-- 3: Co the su dung css nhu thuoc tinh cua the HTML, 
+        vd: <div style="font-size:100px"> 
+                abc 
+            </div> 
+        Hoac co the su dung css nhu 1 file rieng va link vao tai HTML
+    -->
+    <!-- 4: Cach de bien block thanh inline -->
+    <hr>
+    <div class="div-blk">The block div 1</div>
+    <div class="div-blk">The block div 2</div>
+    <div class="div-blk">The block div 3</div>
+    <div class="div-blk">The block div 4</div>
+
+    <hr>
+    <div class="div-inline">
+        <div>The inline div 1</div>
+        <div>The inline div 2</div>
+        <div>The inline div 3</div>
+        <div>The inline div 4</div>
+    </div>
+
+    <!-- 5: Table & form -->
+
+    <hr>
+    <h1>HTML table</h1>
+    <table class="my-table">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>HTML form</h1>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>

@@ -1,1 +1,1 @@
-## This repo is for enrich Frontend ReactJS skills oranized by CTC
+## This repo is for enrich Frontend ReactJS skills organized by CTC

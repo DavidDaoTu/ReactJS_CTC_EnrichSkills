@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+/* This style css file is to help visualize the answers */
+#blk {
+    border: 1px solid red;   
+}
+
+
+.inline {
+    /* Can't apply width & height to inline element */
+    width: 50px; 
+    height: 33px;
+    border: 3px solid green;
+  
+}
+
+/* Demo for box-sizing*/
+.my-box-1 {
+    width: 300px;
+    height: 100px;
+    border: 5px solid blue
+}
+
+.my-box-2 {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.my-box-sizing-1 {
+    width: 300px;
+    height: 100px;
+    border: 5px solid blue;
+    box-sizing: border-box;
+}
+
+.my-box-sizing-2 {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.padding-demo-4 {    
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 25px 50px 75px 100px;
+}
+
+.padding-demo-3 {
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 25px 50px 75px;
+}
+
+.padding-demo-2 {
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 25px 50px;
+}
+
+.padding-demo-1 {
+    
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+/* Margin Demo */
+.margin-demo-4 {    
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px 50px 75px 100px;
+}
+
+.margin-demo-3 {
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px 50px 75px;
+}
+
+.margin-demo-2 {
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px 50px;
+}
+
+.margin-demo-1 {
+    
+    border: 5px solid blue;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+.div-blk {
+    border: 5px solid blueviolet;
+    width: 200px;
+    height: 200px;    
+}
+
+.div-inline {
+    display: flex; 
+}
+
+.div-inline > div {
+    border: 5px solid blueviolet;
+    width: 200px;
+    height: 200px;  
+}
+
+.my-table, th, td {
+    border:1px solid black;
+    width: 100%;
+}
