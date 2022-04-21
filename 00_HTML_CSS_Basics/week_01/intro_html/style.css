@@ -115,7 +115,9 @@
 }
 
 .div-inline {
-    display: flex; 
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
 }
 
 .div-inline > div {
@@ -124,7 +126,20 @@
     height: 200px;  
 }
 
+.container-grid {
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, 100px);
+    /* grid-template-rows: 100px 100px; */
+    grid-template-rows: repeat(2, 100px);
+}
+
+.container-grid > div {
+    border: 2px solid red;
+}
 .my-table, th, td {
     border:1px solid black;
     width: 100%;
 }
+

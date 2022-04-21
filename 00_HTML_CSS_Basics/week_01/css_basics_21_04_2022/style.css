@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid bisque;
+    border-radius: 1em;
+    box-shadow: 1rem;
+}
