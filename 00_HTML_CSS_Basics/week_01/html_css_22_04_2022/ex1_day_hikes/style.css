@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    justify-content: center;
+    border-radius: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    height: auto;
+    width: 600px;
+    /* box-shadow: 5px 10px gainsboro; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.image-container {
+    max-width: 100%;
+    width: 600px;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1650324705564-2eb0b6b23954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.content {
+    padding-left: 10px;
+}
+
+.scenic-hikes {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.dayhikes-txt {
+    color: blue;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+#share-btn {
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px 5px;
+    border-color: azure;
+}
